@@ -1,0 +1,42 @@
+.contain-movie-detail {
+  /* background-color: red; */
+  box-sizing: border-box;
+  background-color: rgb(30, 30, 30);
+  padding: 30px 20px;
+  color: white;
+  height: 55vh;
+  /* min-width: 95vw; */
+  width: 100%;
+  position: fixed;
+  bottom: 20px;
+  display: grid;
+  grid-template-columns: 55% 1fr;
+  justify-content: center;
+  align-items: stretch;
+  column-gap: 20px;
+}
+.name-movie-detail {
+  font-size: 36px;
+  font-weight: bold;
+}
+.info-movie-detail {
+  border-top: 2px solid white;
+  padding: 20px 0;
+  margin-top: 30px;
+}
+.date-detail,
+.vote-detail {
+  font-size: 18px;
+  font-weight: bold;
+}
+.text-detail {
+  font-size: 16px;
+  padding: 20px 0;
+  /* min-width: 50vw; */
+}
+.movie-detail-trailer {
+  border: none;
+}
+.backdrop-movie-detail {
+  width: 90%;
+}

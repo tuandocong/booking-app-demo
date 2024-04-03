@@ -1,0 +1,30 @@
+.contain-banner {
+  /* background-color: pink; */
+  color: white;
+  position: relative;
+}
+.info-movie-banner {
+  width: 30%;
+  position: absolute;
+  left: 30px;
+  bottom: 20%;
+}
+.name-movie-banner {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-size: 36px;
+  font-weight: bold;
+}
+.btn-banner {
+  /* background-color: transparent; */
+  font-size: 18px;
+  padding: 7px 30px;
+  border-radius: 5px;
+  margin: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+}
+.overview-banner {
+  margin: 0 20px;
+}
